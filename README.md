@@ -18,6 +18,7 @@ Getting Started
 2. Include class.bitmessage.php into your PHP script:
 
 	`require_once('class.bitmessage.php');`
+    
 3. Initialize Bitcoin connection/object:
 
 	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/");;`
@@ -25,11 +26,12 @@ Getting Started
 	Optionally, you can turn off the class autoload & stt protocol (HTTP and HTTPS). Default autoload is true, protocol is http.
 
 	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/", "http", false);`
+    
 4. Make calls to Bitmessage daemon as methods for your object. Examples:
 
 	`$bitmessageObj->newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);`
 	`$bitmessageObj->setStrip(true);`
-	`$bitmessageObj->broadcast($address, $title, $message);`
+  	`$bitmessageObj->broadcast($address, $title, $message);`
 
 LICENSE
 ---------------
