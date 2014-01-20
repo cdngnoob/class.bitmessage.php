@@ -6,7 +6,7 @@ class.bitmessage.php
 Release Information
 ---------------
 This repo contains in-development code for future releases. To download the
-latest stable release please visit the <insert download link>.
+latest stable release please visit the [release](https://github.com/Conver/class.bitmessage.php/releases) page.
 
 Requirements
 ---------------
