@@ -11,7 +11,7 @@ apt-get install php5-xmlrpc
 Getting Started
 ---------------
 1. Make sure php5-xmlrpc is installed and loaded
-  
+    
   `apt-get install php5-xmlrpc`
   `service apache2 restart`
 
@@ -21,7 +21,7 @@ Getting Started
     
 3. Initialize Bitcoin connection/object:
 
-	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/");;`
+	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/");`
 
 	Optionally, you can turn off the class autoload & stt protocol (HTTP and HTTPS). Default autoload is true, protocol is http.
 
@@ -29,9 +29,10 @@ Getting Started
     
 4. Make calls to Bitmessage daemon as methods for your object. Examples:
 
-	`$bitmessageObj->newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);`
-	`$bitmessageObj->setStrip(true);`
-  	`$bitmessageObj->broadcast($address, $title, $message);`
+    `$bitmessageObj->newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);`
+    `$bitmessageObj->setStrip(true);`
+    `$bitmessageObj->broadcast($address, $title, $message);`
+
 
 LICENSE
 ---------------
