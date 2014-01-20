@@ -6,6 +6,7 @@ Bitmessage PHP Class to control PyBitmessage daemon
 Requirements
 ---------------
 php5-xmlrpc
+
 apt-get install php5-xmlrpc
 
 Getting Started
@@ -30,7 +31,9 @@ Getting Started
 4. Make calls to Bitmessage daemon as methods for your object. Examples:
 
     `$bitmessageObj->newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);`
+    
     `$bitmessageObj->setStrip(true);`
+    
     `$bitmessageObj->broadcast($address, $title, $message);`
 
 
