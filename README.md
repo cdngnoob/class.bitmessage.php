@@ -3,6 +3,11 @@ class.bitmessage.php
 
 Bitmessage PHP Class to control PyBitmessage daemon
 
+Release Information
+---------------
+This repo contains in-development code for future releases. To download the
+latest stable release please visit the <insert download link>.
+
 Requirements
 ---------------
 php5-xmlrpc
