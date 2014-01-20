@@ -17,11 +17,13 @@ Getting Started
 1. Make sure php5-xmlrpc is installed and loaded
     
   `apt-get install php5-xmlrpc`
+
   `service apache2 restart`
 
 2. Include class.bitmessage.php into your PHP script:
 
 	`require_once('curl.php');`
+	
 	`require_once('class.bitmessage.php');`
     
 3. Initialize Bitmessage connection/object:
