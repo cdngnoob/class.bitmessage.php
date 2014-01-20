@@ -8,6 +8,8 @@ Release Information
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the [release](https://github.com/Conver/class.bitmessage.php/releases) page.
 
+Get latest release information by subscribing to this address: BM-NB19YCwxEnxQXNcGsiFiZU6hjAtJ3pEA
+
 Requirements
 ---------------
 php5-xmlrpc
