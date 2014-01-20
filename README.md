@@ -21,6 +21,7 @@ Getting Started
 
 2. Include class.bitmessage.php into your PHP script:
 
+	`require_once('curl.php');`
 	`require_once('class.bitmessage.php');`
     
 3. Initialize Bitmessage connection/object:
