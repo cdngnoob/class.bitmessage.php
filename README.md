@@ -1,7 +1,7 @@
 class.bitmessage.php
 ====================
 
-Bitmessage PHP Class to control PyBitmessage daemon
+[Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon
 
 Release Information
 ---------------
@@ -25,7 +25,7 @@ Getting Started
 
 	`require_once('class.bitmessage.php');`
     
-3. Initialize Bitcoin connection/object:
+3. Initialize Bitmessage connection/object:
 
 	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/");`
 
@@ -41,6 +41,15 @@ Getting Started
     
     `$bitmessageObj->broadcast($address, $title, $message);`
     
+Features
+========
+
+* Automatic Decoding
+* Automatic HTML strip
+* Support SSL over HTTPS
+* Clean arrays (JSON decoded)
+
+    
 Contributing
 ============
 
@@ -53,15 +62,16 @@ You can contribute to this project in different ways:
 Contact
 =======
 
-You can find me on Freenode.net, #MPOS.
+Bitmessage: BM-NBbV3NmtCjNvBJnQbHALMtGQ8MkLNA3D
 
 Donations
 =========
 
 Donations to this project are going directly to [Conver](https://github.com/Conver), the original author of this project:
 
-* LTC address: `---`
-* BTC address: `---`
+* LTC address: `LVHG4gn8YPaD1DcVij4TribsVXtsNyyUiq`
+* BTC address: `1MGACAk1ELwcm1wac5AFN9ZVd7d1NsSjsh`
+
 
 LICENSE
 ---------------
