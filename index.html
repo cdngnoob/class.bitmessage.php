@@ -48,22 +48,19 @@ latest stable release please visit the <a href="https://github.com/Conver/class.
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
 <ol>
-<li>
-<p>Make sure php5-xmlrpc is installed and loaded</p>
+<li>Make sure php5-xmlrpc is installed and loaded
 
 <p><code>apt-get install php5-xmlrpc</code></p>
 
 <p><code>service apache2 restart</code></p>
 </li>
-<li>
-<p>Include class.bitmessage.php into your PHP script:</p>
+<li>Include class.bitmessage.php into your PHP script:
 
 <p><code>require_once('curl.php');</code></p>
 
 <p><code>require_once('class.bitmessage.php');</code></p>
 </li>
-<li>
-<p>Initialize Bitmessage connection/object:</p>
+<li>Initialize Bitmessage connection/object:
 
 <p><code>$bitmessageObj = new bitmessage("&lt;RPCusername&gt;:&lt;RPCpassword&gt;@&lt;RPChost&gt;:&lt;RPCport&gt;/");</code></p>
 
@@ -71,8 +68,7 @@ latest stable release please visit the <a href="https://github.com/Conver/class.
 
 <p><code>$bitmessageObj = new bitmessage("&lt;RPCusername&gt;:&lt;RPCpassword&gt;@&lt;RPChost&gt;:&lt;RPCport&gt;/", "http", false);</code></p>
 </li>
-<li>
-<p>Make calls to Bitmessage daemon as methods for your object. Examples:</p>
+<li>Make calls to Bitmessage daemon as methods for your object. Examples:
 
 <p><code>$bitmessageObj-&gt;newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);</code></p>
 
