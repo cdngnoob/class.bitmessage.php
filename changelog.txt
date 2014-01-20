@@ -1,0 +1,31 @@
+== Changelog <version number> ==
+
+=== english ===
+
+==== new features ====
+
+* <new feature #1>
+...
+
+==== bug fixes ====
+
+* <ticketID1> [http://trac.osgeo.org/mapbender/report/<ticketID1> <ticket description (copy from trac)>]
+...
+
+==== database changes ====
+
+<module name>
+
+<change description>
+
+SQL:
+
+<html><textarea rows=10>
+
+<the actual sql>
+
+</textarea></html>
+
+=== deutsch ===
+
+...
