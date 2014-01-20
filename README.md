@@ -35,7 +35,28 @@ Getting Started
     `$bitmessageObj->setStrip(true);`
     
     `$bitmessageObj->broadcast($address, $title, $message);`
+    
+Contributing
+============
 
+You can contribute to this project in different ways:
+
+* Report outstanding issues and bugs by creating an [Issue](https://github.com/Conver/class.bitmessage.php/issues/new)
+* Suggest feature enhancements via our [Forum Thread](https://bitmessage.org/forum) on bitmessage forum
+* Fork the project, create a branch and file a pull request to improve the code itself
+
+Contact
+=======
+
+You can find me on Freenode.net, #MPOS.
+
+Donations
+=========
+
+Donations to this project are going directly to [Conver](https://github.com/Conver), the original author of this project:
+
+* LTC address: `---`
+* BTC address: `---`
 
 LICENSE
 ---------------
