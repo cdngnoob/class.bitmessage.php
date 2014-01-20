@@ -31,26 +31,38 @@
           <h1>
 <a name="classbitmessagephp" class="anchor" href="#classbitmessagephp"><span class="octicon octicon-link"></span></a>class.bitmessage.php</h1>
 
-<p>Bitmessage PHP Class to control PyBitmessage daemon</p>
+<p><a href="https://bitmessage.org/">Bitmessage</a> PHP Class to control PyBitmessage daemon</p>
+
+<h2>
+<a name="release-information" class="anchor" href="#release-information"><span class="octicon octicon-link"></span></a>Release Information</h2>
+
+<p>This repo contains in-development code for future releases. To download the
+latest stable release please visit the .</p>
 
 <h2>
 <a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
 
 <p>php5-xmlrpc</p>
 
+<p><code>apt-get install php5-xmlrpc</code></p>
+
 <h2>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
 <ol>
-<li>Make sure php5-xmlrpc is installed and loaded
-<p><code>apt-get install php5-xmlrpc</code></p>
-<p><code>service apache2 restart</code></p>
+<li>
+<p>Make sure php5-xmlrpc is installed and loaded</p>
+
+<p><code>apt-get install php5-xmlrpc</code>
+<code>service apache2 restart</code></p>
 </li>
-<li>Include class.bitmessage.php into your PHP script:
+<li>
+<p>Include class.bitmessage.php into your PHP script:</p>
 
 <p><code>require_once('class.bitmessage.php');</code></p>
 </li>
-<li>Initialize Bitcoin connection/object:
+<li>
+<p>Initialize Bitmessage connection/object:</p>
 
 <p><code>$bitmessageObj = new bitmessage("&lt;RPCusername&gt;:&lt;RPCpassword&gt;@&lt;RPChost&gt;:&lt;RPCport&gt;/");</code></p>
 
@@ -58,7 +70,8 @@
 
 <p><code>$bitmessageObj = new bitmessage("&lt;RPCusername&gt;:&lt;RPCpassword&gt;@&lt;RPChost&gt;:&lt;RPCport&gt;/", "http", false);</code></p>
 </li>
-<li>Make calls to Bitmessage daemon as methods for your object. Examples:
+<li>
+<p>Make calls to Bitmessage daemon as methods for your object. Examples:</p>
 
 <p><code>$bitmessageObj-&gt;newAddress($label, $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);</code></p>
 
@@ -66,25 +79,56 @@
 
 <p><code>$bitmessageObj-&gt;broadcast($address, $title, $message);</code></p>
 </li>
-</ol><h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>LICENSE</h2>
+</ol><h1>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h1>
 
 <ul>
-<li> Copyright (C) 2014 - 2014  Convertor</li>
-<li> This program is free software: you can redistribute it and/or modify</li>
-<li> it under the terms of the GNU General Public License as published by</li>
-<li> the Free Software Foundation, either version 3 of the License, or</li>
-<li> (at your option) any later version.</li>
-<li>
-<li> This program is distributed in the hope that it will be useful,</li>
-<li> but WITHOUT ANY WARRANTY; without even the implied warranty of</li>
-<li> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</li>
-<li> GNU General Public License for more details.</li>
-<li>
-<li> You should have received a copy of the GNU General Public License</li>
-<li> along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>
+<li>Automatic Decoding</li>
+<li>Automatic HTML strip</li>
+<li>Support SSL over HTTPS</li>
+<li>Clean arrays (JSON decoded)</li>
+</ul><h1>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h1>
+
+<p>You can contribute to this project in different ways:</p>
+
+<ul>
+<li>Report outstanding issues and bugs by creating an <a href="https://github.com/Conver/class.bitmessage.php/issues/new">Issue</a>
 </li>
-</ul>
+<li>Suggest feature enhancements via our <a href="https://bitmessage.org/forum">Forum Thread</a> on bitmessage forum</li>
+<li>Fork the project, create a branch and file a pull request to improve the code itself</li>
+</ul><h1>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h1>
+
+<p>Bitmessage: BM-NBbV3NmtCjNvBJnQbHALMtGQ8MkLNA3D</p>
+
+<h1>
+<a name="donations" class="anchor" href="#donations"><span class="octicon octicon-link"></span></a>Donations</h1>
+
+<p>Donations to this project are going directly to <a href="https://github.com/Conver">Conver</a>, the original author of this project:</p>
+
+<ul>
+<li>LTC address: <code>LVHG4gn8YPaD1DcVij4TribsVXtsNyyUiq</code>
+</li>
+<li>BTC address: <code>1MGACAk1ELwcm1wac5AFN9ZVd7d1NsSjsh</code>
+</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>LICENSE</h2>
+
+<p>Copyright (C) 2014 - 2014  Convertor</p>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a></p>
         </section>
 
         <aside id="sidebar">
