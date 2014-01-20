@@ -12,8 +12,6 @@ Requirements
 ---------------
 php5-xmlrpc
 
-  `apt-get install php5-xmlrpc`
-
 Getting Started
 ---------------
 1. Make sure php5-xmlrpc is installed and loaded
