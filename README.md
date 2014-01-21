@@ -1,7 +1,7 @@
-class.bitmessage.php
+Bitmessage PHP Class
 ====================
 
-[Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon
+[Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon using xmlrpc
 
 Release Information
 ---------------
