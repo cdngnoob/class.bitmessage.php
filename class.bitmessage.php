@@ -1,4 +1,4 @@
-<?
+<?php
 /** Bitmessage Class
  * @author Convertor
  * @version 0.1
