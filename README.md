@@ -34,9 +34,9 @@ Getting Started
 
 	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/");`
 
-	Optionally, you can turn off the class autoload & stt protocol (HTTP and HTTPS). Default autoload is true, protocol is http.
+	Optionally, you can turn off the class stt protocol (HTTP and HTTPS). Default  protocol is http.
 
-	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/", "http", false);`
+	`$bitmessageObj = new bitmessage("<RPCusername>:<RPCpassword>@<RPChost>:<RPCport>/", "http");`
     
 4. Make calls to Bitmessage daemon as methods for your object. Examples:
 

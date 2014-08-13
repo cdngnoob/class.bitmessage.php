@@ -36,17 +36,13 @@ class bitmessage
     private $decode = false;
     private $strip = false;
 
-    function __construct($url, $https = "http", $autoload = true)
+    function __construct($url, $https = "http")
     {
         $url = ($https == "https") ? "https://{$url}" : "http://{$url}";
 
         $this->url = $url;
         $this->connection = new curl;
         $this->methods = array();
-        if ($autoload) {
-            $resp = $this->call('system.listMethods', null);
-            $this->methods = $resp;
-        }
     }
 
     private function call($method, $params = null)
