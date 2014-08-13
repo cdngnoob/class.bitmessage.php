@@ -66,15 +66,14 @@ class bitmessage
 
     private function getError($check)
     {
-
-        if (strpos($check, 'API Error') !== false) {
-            $this->errors .= $check;
-            return;
-        } else {
-            return $check;
+        if (!is_array($check)) {
+            if (strpos($check, 'API Error') !== false) {
+                $this->errors .= $check;
+                return;
+            }
         }
+        return $check;
     }
-
 
     public function autoDecode($decode)
     {
@@ -255,7 +254,7 @@ class bitmessage
     public function broadcast($address, $title, $message, $encodingType = 2)
     {
         $message = $this->stripHTML($message);
-        
+
         $bmdata = array(
             $address,
             $this->baseencode($title),
