@@ -27,28 +27,32 @@
 class curl
 {
     /**
-     *  * @var bool */
+     *  *  * @var bool */
     public $cache = false;
     public $proxy = false;
     /**
-     *  * @var array */
+     *  *  * @var array */
     public $response = array();
     public $headers = array();
     /**
-     *  * @var string */
+     *  *  * @var string */
     public $info;
     public $error;
 
     /**
-     *  * @var array */
+     *  *  * @var int */
+    public $count;
+
+    /**
+     *  *  * @var array */
     private $options;
     /**
-     *  * @var string */
+     *  *  * @var string */
     private $proxy_host = '';
     private $proxy_auth = '';
     private $proxy_type = '';
     /**
-     *  * @var bool */
+     *  *  * @var bool */
     private $debug = false;
     private $cookie = false;
 
@@ -572,7 +576,7 @@ class curl
 class curl_cache
 {
     /**
-     *  * @var string */
+     *  *  * @var string */
     public $dir = '';
     /**
      *
