@@ -13,6 +13,7 @@ Get latest release information by subscribing to this address: BM-NB19YCwxEnxQXN
 Requirements
 ---------------
 php5-xmlrpc
+
 php5-curl
 
 Getting Started
