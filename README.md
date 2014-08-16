@@ -3,7 +3,7 @@ Bitmessage PHP Class
 
 [Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon using xmlrpc
 
-Read more: http://www.bmservices.tk/
+Read more: http://www.bmservices.tk/?p=PHPClass
 
 Release Information
 ---------------
