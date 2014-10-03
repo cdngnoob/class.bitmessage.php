@@ -1,6 +1,8 @@
 Bitmessage PHP Class
 ====================
 
+[![tip for next commit](http://prime4commit.com/projects/112.svg)](http://prime4commit.com/projects/112) [![tip for next commit](https://tip4commit.com/projects/1000.svg)](https://tip4commit.com/github/Conver/class.bitmessage.php)
+
 [Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon using xmlrpc
 
 Read more: http://www.bmservices.tk/?p=PHPClass
