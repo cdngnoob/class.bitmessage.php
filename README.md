@@ -71,14 +71,13 @@ You can contribute to this project in different ways:
 Contact
 =======
 
-Bitmessage: BM-NBbV3NmtCjNvBJnQbHALMtGQ8MkLNA3D
+Bitmessage: BM-NBH4Q94X9E6mNmdKqeF68zWC4uzz7uCB
 
 Donations
 =========
 
 Donations to this project are going directly to [Conver](https://github.com/Conver), the original author of this project:
 
-* LTC address: `LVHG4gn8YPaD1DcVij4TribsVXtsNyyUiq`
 * BTC address: `1MGACAk1ELwcm1wac5AFN9ZVd7d1NsSjsh`
 
 
