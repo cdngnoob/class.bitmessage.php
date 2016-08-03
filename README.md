@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Conver/class.bitmessage.php.png?label=ready&title=Ready)](https://waffle.io/Conver/class.bitmessage.php)
 Bitmessage PHP Class
 ====================
 
