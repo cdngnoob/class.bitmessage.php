@@ -2,8 +2,6 @@
 Bitmessage PHP Class
 ====================
 
-[![tip for next commit](http://prime4commit.com/projects/112.svg)](http://prime4commit.com/projects/112)
-
 [Bitmessage](https://bitmessage.org/) PHP Class to control PyBitmessage daemon using xmlrpc
 
 
@@ -66,18 +64,6 @@ You can contribute to this project in different ways:
 * Report outstanding issues and bugs by creating an [Issue](https://github.com/Conver/class.bitmessage.php/issues/new)
 * Suggest feature enhancements via our [Forum Thread](https://bitmessage.org/forum) on bitmessage forum
 * Fork the project, create a branch and file a pull request to improve the code itself
-
-Contact
-=======
-
-Bitmessage: BM-NBH4Q94X9E6mNmdKqeF68zWC4uzz7uCB
-
-Donations
-=========
-
-Donations to this project are going directly to [Conver](https://github.com/Conver), the original author of this project:
-
-* BTC address: `1Ac9HwAg352hWepY51jhPncGDwrrQWftT7`
 
 
 LICENSE
